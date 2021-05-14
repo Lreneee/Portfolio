@@ -1,13 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    margin: 0;
+    font-family: "Gentona Light", BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    color: #526C80;
+    border-color: #526C80;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+h1{
+    font-family: "Gentona Bold", 'Roboto';
 }
 
+@font-face {
+    font-family: 'Gentona Light';
+    src: local('Gentona Light'), url(../../portfolioirene/src/assets/fonts/GentonaLight.otf) format('truetype');
+}
+@font-face {
+    font-family: 'Gentona Bold';
+    src: local('Gentona Bold'), url(../../portfolioirene/src/assets/fonts/GentonaSemiBold.otf) format('truetype');
+}
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
